@@ -1,0 +1,112 @@
+._g_sipa-rating {
+    font-size: small;
+    line-height: 17px;
+}
+/* front rating widget */
+._g_sipa-rating-rate ._g_sipa-rating-stars {
+    display: block;
+    margin-bottom: 15px;
+
+}
+
+._g_sipa-rating-rate
+{
+    max-width: 100%;
+    display: inline-block;
+}
+
+._g_sipa-rating-rate ._ayg {
+    background: url("../img/stars_grey.png") no-repeat -0px -0px;
+    background-size: 85px;
+    display: inline-block;
+    height: 17px;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+    width: 85px;
+    cursor: pointer;
+}
+
+._g_sipa-rating-rate ._ayg span {
+    background: url("../img/stars_orange.png") no-repeat -0px -0px;
+    background-size: 85px;
+    display: block;
+    height: 17px;
+    width: 85px;
+}
+
+
+/* category */
+
+._g_sipa-rating-cat ._g_info {
+    margin-top: 4px;
+    display: inline-block;
+}
+._g_sipa-rating-cat ._g_sipa-rating-stars {
+    display: block;
+    max-width: 220px;
+    float: left;
+    margin-right: 4px;
+}
+
+._g_sipa-rating-cat {
+    display: inline-block;
+    max-width: 100%;
+    float: left;
+    width: 100%;
+    padding: 0px 12px 12px 12px;
+    overflow: auto;
+}
+
+._g_sipa-rating-cat ._ayg {
+    background: url("../img/stars_grey.png") no-repeat -0px -0px;
+    background-size: 85px;
+    display: inline-block;
+    height: 17px;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+    width: 85px;
+    cursor: default;
+}
+
+._g_sipa-rating-cat ._ayg span {
+    background: url("../img/stars_orange.png") no-repeat -0px -0px;
+    background-size: 85px;
+    display: block;
+    height: 17px;
+    width: 85px;
+}
+
+/* listing */
+._g_sipa-rating-list ._g_sipa-rating-stars {
+    display: block;
+}
+
+._g_sipa-rating-list
+{
+    max-width: 100%;
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+._g_sipa-rating-list ._ayg {
+    background: url("../img/stars_grey.png") no-repeat -0px -0px;
+    background-size: 85px;
+    display: inline-block;
+    height: 17px;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+    width: 85px;
+    cursor: default;
+}
+
+._g_sipa-rating-list ._ayg span {
+    background: url("../img/stars_orange.png") no-repeat -0px -0px;
+    background-size: 85px;
+    display: block;
+    height: 17px;
+    width: 85px;
+}
